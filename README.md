@@ -267,13 +267,13 @@ terraform apply tfplan
 
 ---
 
-## 💼 Resume-Ready Project Summary
+## 💼 Project Summary
 
 ### Professional Description
 > **Habot Secure Cloud: Cloud Data Ingestion & DevSecOps Platform**  
 > Engineered a secure, automated data ingestion architecture on Google Cloud Platform featuring a two-tier storage topology (GCS D0 Raw Landing to BigQuery D1 Staged/Enforced), governed by least-privilege IAM conditions and BigQuery Row-Level Security. Built a "Fail-Closed" Poka-Yoke CI/CD build gate using GitHub Actions, TruffleHog, Black, and Flake8, accompanied by a deterministic Django REST Framework schema validation module converting conditional student attributes into Discrete Condition Yes/No (DCYN) binary logic.
 
-### ATS-Friendly Resume Bullets
+### Bullets
 - **Architected Secure Cloud IaC (GCP & Terraform):** Designed and validated a multi-tier data pipeline on GCP using Terraform, provisioning an immutable GCS raw landing bucket with 30-day automated lifecycle rules, an IAM condition-restricted ingestion service account (`roles/storage.objectCreator` on `incoming/*`), and a BigQuery staging dataset with Row-Level Security (RLS).
 - **Built Fail-Closed DevSecOps Gates (GitHub Actions):** Implemented an automated Poka-Yoke CI/CD pipeline enforcing secret scanning (TruffleHog), deterministic code formatting (Black), structural linting (Flake8), and Terraform syntax checks, blocking insecure and non-compliant commits prior to merge.
 - **Engineered Data Validation & DCYN Logic (DRF & Python):** Developed a robust Django REST Framework schema validation module with email domain whitelisting and age boundary enforcement, transforming raw boolean attributes into deterministic Discrete Condition Yes/No (DCYN) binary flags for analytical modeling.
