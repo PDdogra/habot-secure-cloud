@@ -22,7 +22,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Scan for Hardcoded Secrets
-        uses: trufflesecurity/trufflehog-action@main
+        uses: trufflesecurity/trufflehog@main
         with:
           extra_args: --only-verified
 
