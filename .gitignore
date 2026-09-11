@@ -1,0 +1,32 @@
+# Terraform local directory
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+*.tfplan
+
+# Crash log files
+crash.log
+crash.*.log
+
+# CLI configuration files
+.terraformrc
+terraform.rc
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Secrets, credentials, and environment variables
+*.env
+.env*
+*.key
+*.pem
+*.p12
+*service-account*.json
+*credentials*.json
+secrets.tfvars
+*.tfvars
+*.tfvars.json
