@@ -15,10 +15,18 @@ crash.*.log
 .terraformrc
 terraform.rc
 
-# Python cache
+# Python cache & virtual environments
 __pycache__/
 *.py[cod]
 *$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+.pytest_cache/
+.coverage
+htmlcov/
 
 # Secrets, credentials, and environment variables
 *.env
@@ -26,8 +34,19 @@ __pycache__/
 *.key
 *.pem
 *.p12
+*.crt
+*.der
 *service-account*.json
 *credentials*.json
 secrets.tfvars
 *.tfvars
 *.tfvars.json
+bad_secret.py
+
+# System & IDE artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
